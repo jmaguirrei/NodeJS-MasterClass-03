@@ -1,0 +1,195 @@
+/*
+ * CSS Styles for Application
+ *
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0;
+}
+
+form {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* _document */
+
+h1 {
+  width: 100%;
+  text-align: center;
+  background: hsl(0,0%,90%);
+  padding: 10px 0;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  border-bottom: 2px solid hsl(0,0%,70%);
+  padding: 15px 0;
+  font-size: 20px;
+  margin: 30px;
+}
+
+.helloUser {
+  position: absolute;
+  right: 50px;
+  top: 20px;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer {
+  padding: 50px;
+}
+
+/* loggedIn Out classes */
+
+body.logged .loggedIn {
+  display: block;
+}
+
+body.notLogged .loggedOut {
+  display: block;
+}
+
+body.logged .loggedOut {
+  display: none;
+}
+
+body.notLogged .loggedIn {
+  display: none;
+}
+
+/* accountCreate */
+
+.formWrapper {
+  width: 60%;
+}
+
+.formError {
+  color: red;
+  padding: 20px;
+  text-align: right;
+}
+
+.inputBox {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.checkWrapper {
+  display: flex;
+}
+
+.ctaButton {
+  background: green;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  margin: 20px 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* menu */
+.menuItemsWrapper {
+  width: 80%;
+}
+
+/* menuItem */
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+  border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+.menuItemQty {
+  position: relative;
+  height: 40px;
+  width: 60px;
+  background: hsl(0, 0%, 96%);
+}
+
+.inputNumber {
+  position: absolute;
+  font-size: 18px;
+  height: 40px;
+  width: 60px;
+  border: none;
+  text-align: center;
+  background: transparent;
+}
+
+.menuItemDesc {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.menuItemUSD {
+  width: 100px;
+  text-align: center;
+}
+
+/* menuCart */
+
+.cart {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.cartDetails {
+  display: flex;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.cartItems {
+  flex: 1;
+}
+
+.cartPrice {
+  width: 120px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.cartButton {
+  background: blue;
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  margin: 20px 0;
+  cursor: pointer;
+}

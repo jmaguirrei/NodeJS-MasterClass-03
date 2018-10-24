@@ -1,0 +1,26 @@
+{
+  "user": {
+    "name": "José Manuel Aguirre",
+    "email": "jmaguirrei@gmail.com",
+    "address": "LM 5150"
+  },
+  "order": {
+    "id": "odb0q76pqcbcwfsfdm7f",
+    "original": {
+      "SNA-004": "0",
+      "SNA-003": "0",
+      "SNA-002": "0",
+      "SNA-001": "2",
+      "PIZ-008": "0",
+      "PIZ-007": "7",
+      "PIZ-006": "0",
+      "PIZ-005": "0",
+      "PIZ-004": "0",
+      "PIZ-003": "0",
+      "PIZ-002": "0",
+      "PIZ-001": "0"
+    },
+    "amount": 80,
+    "description": " (2) Snack - Aros de cebolla (7) Pizza - Veggie"
+  }
+}
